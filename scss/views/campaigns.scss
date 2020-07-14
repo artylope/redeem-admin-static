@@ -1,0 +1,14 @@
+.campaign-page{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto;
+
+  .campaign-body{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100%;
+  }
+
+}

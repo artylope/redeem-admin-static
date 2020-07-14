@@ -8,7 +8,27 @@ $warning: #EA8B34;
 
 $redeem-blue: #303778;
 
+//neutrals
 $neutral-100: #F3F5F6;
+$neutral-200: #DDE1E6;
+$neutral-300: #C5CDD4;
+$neutral-400: #AFBAC4;
+$neutral-500: #97A6B2;
+$neutral-600: #737373;
+$neutral-700: #595959;
+$neutral-800: #464E55;
+$neutral-900: #2A2E33;
 
+
+
+$chosenColor: $redeem-blue;
+
+$header-text: $neutral-700;
+$body-text: $neutral-800;
+$body-text-light: $neutral-400;
 
 $main-background: $neutral-100;
+// $main-background: $chosenColor;
+
+$topbar-height: 0;
+$sidebar-width: 240px;

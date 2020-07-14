@@ -1,0 +1,97 @@
+.sidebar {
+  width: $sidebar-width;
+  // position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  // padding-top: $topbar-height + 30px;
+
+  button{
+    margin-bottom: 1.5rem;
+    padding: 0;
+    border: 0;
+  }
+
+  .campaign-meta-info{
+    margin-bottom: 3rem;
+
+    .campaign-logo{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: white;
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+      -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    }
+
+    h2{
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin: 0;
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
+    .date-created{
+      font-size: .8rem;
+      margin: 0;
+      color: $neutral-600;
+    }
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .link {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+
+      margin-bottom: .3rem;
+      padding-left: 1rem;
+      padding-top: .8rem;
+      padding-bottom: .8rem;
+      width: 100%;
+      color: $neutral-800;
+      font-weight: 500;
+
+      i {
+        margin-right: .5rem;
+        color: $neutral-500;
+      }
+
+      &:hover {
+        background: lighten($primary,50%);
+        border-radius: 10px;
+        color: $primary;
+
+        i{
+          color: $primary;
+        }
+      }
+
+      &.active {
+        background: lighten($primary,40%);
+        border-radius: 10px;
+        color: $primary;
+
+        i{
+          color: $primary;
+        }
+      }
+
+      &.log-out{
+        margin-top: 100px;
+      }
+    }
+
+
+  }
+
+
+}
