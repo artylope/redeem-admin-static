@@ -1,0 +1,18 @@
+//import base
+@import "base/variables";
+@import "base/main";
+
+//import components
+@import "components/grid";
+@import "components/button";
+@import "components/card";
+@import "components/form";
+@import "components/modal";
+@import "components/pagination";
+
+
+//import pages
+@import "views/login";
+@import "views/campaigns";
+@import "views/dashboard";
+@import "views/detail-page";
